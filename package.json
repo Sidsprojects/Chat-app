@@ -1,0 +1,20 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Siddharth Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "moment": "^2.30.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
