@@ -54,7 +54,7 @@ function outputMessage(message) {
 // Add room name to the DOM
 
 function outputRoom(room) {
-  roomName.innerText = room
+  roomName.innerText =  room
 }
 
 function outputRoomUsers(users) {

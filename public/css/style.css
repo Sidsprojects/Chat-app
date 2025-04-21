@@ -17,8 +17,11 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background: var(--light-color);
+	/* background: var(--light-color); */
 	margin: 20px;
+	background-image: url(https://img.freepik.com/free-vector/dialogue-chat-clouds-speech-bubble-icon-from-lines-triangles-particle-style-design-low-poly-technology-devices-people-communication-concept-blue-background_587448-471.jpg);
+
+	background-size: cover;
 }
 
 ul {
@@ -50,11 +53,9 @@ a {
 
 .chat-header {
 	background: var(--dark-color-a);
-	border-radius: 50px;
 	color: #fff;
 	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	padding: 15px;
+	padding: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -63,6 +64,7 @@ a {
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	height: 55vh;
 }
 
 .chat-sidebar {
@@ -145,7 +147,8 @@ a {
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+	/* background: var(--dark-color-b); */
+	background: linear-gradient(45deg, Blue, black);
 	box-shadow: 5px 4px 20px 1px black;
 }
 
