@@ -196,4 +196,7 @@ a {
 		display: none;
 		background-color: black;
 	}
+	.body{
+		background-size: cover;	
+	}
 }
