@@ -13,7 +13,7 @@ const {
   getRoomMembers,
 } = require("./Utils/users");
 const botname = "GodSlayer -- Admin";
-
+// omkar is gay
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 // Run when client connects
@@ -55,6 +55,7 @@ io.on("connection", (socket) => {
     }
   });
 });
+
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () =>
